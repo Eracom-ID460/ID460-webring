@@ -1,12 +1,12 @@
-/* ID441 Webring */
+/* ID460 Webring */
 
-#id450webring, #id450webring * {
+#id460webring, #id460webring * {
 	font-family: monospace;
 	font-size: 16px;
 	line-height: 1;
 	transition: all 0.1s;
 }
-#id450webring {
+#id460webring {
 	color: #f1357a;
 	background-color: #fff;
 
@@ -22,7 +22,7 @@
 	bottom: 24px;
 		left: 24px;
 }
-#id450webring a {
+#id460webring a {
 	color: inherit;
 	padding: 0.5em;
 	text-decoration-style: wavy;
@@ -30,38 +30,38 @@
 	text-underline-offset: 0.33em;
 }
 
-#id450webring a:first-of-type span:before { 
+#id460webring a:first-of-type span:before { 
 	content: "← ";
 }
 
-#id450webring a:last-of-type span:after { 
+#id460webring a:last-of-type span:after { 
 	content: " →";
 }
 
-#id450webring a:first-of-type,
-#id450webring a:last-of-type { 
+#id460webring a:first-of-type,
+#id460webring a:last-of-type { 
 	font-weight: bold;
 }
-#id450webring a:nth-of-type(2){ 
+#id460webring a:nth-of-type(2){ 
 	text-decoration: none;
 }
 
-#id450webring:has(a:first-of-type:hover),
-#id450webring:has(a:last-of-type:hover){
+#id460webring:has(a:first-of-type:hover),
+#id460webring:has(a:last-of-type:hover){
 	background-color: #f1357a;
 	color: #FFF6;
 	border: 2px solid #FFF;
 }
-#id450webring a:first-of-type:hover,
-#id450webring a:last-of-type:hover{
+#id460webring a:first-of-type:hover,
+#id460webring a:last-of-type:hover{
 	color: #FFF;
 	text-decoration: underline;
 	text-decoration-style: wavy;
 	opacity: 1;
 }
 
-#id450webring a:first-of-type:visited,
-#id450webring a:last-of-type:visited,
+#id460webring a:first-of-type:visited,
+#id460webring a:last-of-type:visited,
 .visited{
 	text-decoration: line-through;
 	opacity: 0.5;
